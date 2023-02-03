@@ -1,0 +1,112 @@
+/* vars */
+
+:root {
+  --gap-number: 10px;
+  --first-color: #02c76e;
+  --cream-color: #f8f2e1;
+  --yellow-light-color: #ffe59d;
+
+  --red-color: #fd7463;
+  --text-color: #333;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --font-size: 11px;
+  --font-family: "Montserrat", sans-serif;
+  --sora-family: "Sora", sans-serif;
+  --border-radius: 15px;
+  --box-shadow: 10px 10px 40px 1px rgba(0, 0, 0, 0.21);
+}
+
+/* Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Structure */
+body {
+  background: var(--white-color);
+}
+
+body#home .hero-foot {
+  background-color: var(--first-color);
+  height: 140px;
+}
+
+/* header */
+header {
+  background: var(--yellow-light-color);
+}
+
+/* footer */
+
+footer {
+  background: var(--black-color);
+  color: var(--white-color);
+  padding: 60px 0;
+  font-size: 14px;
+}
+
+footer .logo-blanco {
+  width: 200px;
+}
+
+footer h3 {
+  padding-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+footer a {
+  font-family: var(--sora-family);
+  color: var(--white-color);
+  display: block;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--white-color);
+  text-decoration: underline;
+}
+
+footer a.mailto {
+  color: #eeb943;
+}
+
+footer .wrap-rrss {
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+@media screen and (orientation: portrait) {
+}
