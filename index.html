@@ -15,6 +15,8 @@
     rel="stylesheet">
 
   <link href="./css/style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+
 </head>
 
 <body id="home">
@@ -22,41 +24,56 @@
   <header>
     <div class="container">
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 py-lg-5">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar w/ text</a>
+          <a class="navbar-brand" href="#">
+            <img src="./img/Logo.svg" alt="aleluya" />
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li class="nav-item ms-0 ms-lg-5">
+                <a class="nav-link" href="#">Caracteristicas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Partners</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Precios</a>
               </li>
             </ul>
-            <span class="navbar-text">
-              Navbar text with an inline element
-            </span>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Habla con un asesor</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link my-2 my-lg-0 mx-0 mx-lg-4 px-4" href="#">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link my-2 my-lg-0 px-4" href="#">Registrarme</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
 
       <div class="hero row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 ">
           <h1>Relax, tu nómina, seguridad social y RRHH en menos de lo que canta un gallo.</h1>
           Todo lo que necesitas en un solo lugar.
-          <button type="button" class="btn btn-primary">Primary</button>
+          <br />
+          <button type="button" class="btn btn-primary">Empieza ahora</button>
+          <br />
           <span>(Sin obligaciones, sin tarjeta de crédito)</span>
         </div>
         <div class="col-12 col-lg-6">
-          <img src="./img/herohome.png" alt="hero home" />
+          <img class="img-fluid" src="./img/herohome.png" alt="hero home" />
         </div>
       </div>
 
@@ -65,25 +82,95 @@
     <div class="hero-foot">&nbsp;</div>
   </header>
 
-  <section>
-    logos
-  </section>
-
-  <section>
-    <div class="container">
-      <h2>Liquida tu nómina en menos de 5 minutos</h2>
+  <section class="py-4">
+    <h2>Usado por más de 10.000 empresas en Colombia (y contando)</h2>
+    <div class="swiper swiper-logos">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./img/logos/Clientes_34.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_36.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_38.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_40.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_42.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_44.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_46.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_48.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_50.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_52.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_54.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_56.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_58.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_60.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_62.png" /></div>
+        <div class="swiper-slide"><img src="./img/logos/Clientes_64.png" /></div>
+      </div>
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <h2>La única plataforma en Colombia con Seguridad Social 100% Automatizada</h2>
-    </div>
-  </section>
 
   <section>
     <div class="container">
-      <h2>Nos comemos los chicharrones de RRHH que te quitan mucho tiempo, para que te enfoques en tus personas</h2>
+
+      <div class="box b-yellow">
+        <div class="row">
+          <div class="col-12">
+            <h2>Liquida tu nómina en menos de 5 minutos</h2>
+          </div>
+          <div class="col-12 col-lg-6 box-content">
+            Independientemente del tamaño de tu compañía, liquida tu nómina y emite tu nómina electrónica de la forma
+            más simple del mundo y olvidate de los archivos pre-historicos de Excel.
+            <button type="button" class="btn btn-primary mt-5">Crear mi cuenta gratis</button>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img class="img-fluid px-5 pb-5" src="./img/Pantallazo03.png" alt="Reportar horas extras" />
+          </div>
+        </div>
+      </div>
+
+      <div class="box b-green">
+        <div class="row">
+          <div class="col-12">
+            <h2>La única plataforma en Colombia con Seguridad Social 100% Automatizada</h2>
+          </div>
+          <div class="col-12 col-lg-6 box-content">
+            <ul>
+              <li class="active">Afiliaciones</li>
+              <li>Pagos</li>
+            </ul>
+            <h3 class="my-4">Afiliaciones a Seguridad Social en segundos</h3>
+            <div>Desde Aleluya podrás realizar las afiliaciones de tus empleados en pocos clics y con la tranquilidad de
+              no volver a estresarte por largos formularios y llamadas. Ufff!</div>
+            <button type="button" class="btn btn-primary mt-5">Empieza ahora</button>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img class="img-fluid px-5 pb-5" src="./img/Pantallazo02.png" alt="Reportar horas extras" />
+          </div>
+        </div>
+      </div>
+
+      <div class="box b-blue">
+        <div class="row">
+          <div class="col-12">
+            <h2>Nos comemos los chicharrones de RRHH que te quitan mucho tiempo, para que te enfoques en tus personas
+            </h2>
+          </div>
+          <div class="col-12 col-lg-6 box-content">
+            <ul>
+              <li class="active">Contrata</li>
+              <li>Valida</li>
+              <li>Firma</li>
+              <li>Documentos</li>
+            </ul>
+            <h3 class="my-4">Contrata a un empleado en menos de 10 minutos</h3>
+            <div>Revisa el estado de cada contratación en tu panel de onboarding y deja el trabajo pesado en nuestras
+              manos.</div>
+            <button type="button" class="btn btn-primary mt-5">Empieza ahora</button>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img class="img-fluid px-5 pb-5" src="./img/Pantallazo4.png" alt="Reportar horas extras" />
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -148,6 +235,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script src="./js/func.js"></script>
+
 </body>
 
 
