@@ -60,7 +60,8 @@ body {
   background: var(--white-color);
 }
 
-body#home .hero-foot {
+body#home .hero-foot,
+body#seguridad .hero-foot {
   background-color: var(--first-color);
   height: 140px;
   margin-top: -140px;
@@ -72,8 +73,19 @@ body#producto .hero-foot {
   margin-top: -140px;
 }
 
-body#producto .hero h1 {
+body#rrhh .hero-foot {
+  background-color: #27b7ff;
+  height: 140px;
+  margin-top: -140px;
+}
+
+body#producto .hero h1,
+body#seguridad .hero h1 {
   padding-top: 40px;
+}
+
+body#rrhh .hero h1 {
+  padding-top: 0px;
 }
 
 h2 {
@@ -349,6 +361,19 @@ nav .ms-auto li:nth-child(3) a {
 
 /* blog-post */
 
+.blog-post h2 {
+  line-height: 145%;
+}
+
+.blog-post h3 {
+  padding-top: 30px;
+}
+
+.blog-post ul {
+  list-style-type: disc;
+  padding: 0 0 20px 20px;
+}
+
 /* pre footer */
 
 .pre-footer {
@@ -358,6 +383,11 @@ nav .ms-auto li:nth-child(3) a {
 
 #producto .pre-footer {
   background: #f46532;
+}
+
+#rrhh .pre-footer {
+  background: #503df9;
+  color: var(--white-color);
 }
 
 .pre-footer h2 {
@@ -374,6 +404,11 @@ nav .ms-auto li:nth-child(3) a {
 #producto .pre-footer .btn-primary {
   background-color: var(--black-color);
   color: var(--white-color);
+}
+
+#rrhh .pre-footer .btn-primary {
+  background-color: var(--first-color);
+  color: var(--black-color);
 }
 
 .pre-footer span {
