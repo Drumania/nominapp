@@ -11,7 +11,7 @@
   --text-color: #333;
   --black-color: #000000;
   --white-color: #ffffff;
-  --font-size: 11px;
+  --font-size: 14px;
   --font-family: "Montserrat", sans-serif;
   --sora-family: "Sora", sans-serif;
   --border-radius: 15px;
@@ -66,6 +66,16 @@ body#home .hero-foot {
   margin-top: -140px;
 }
 
+body#producto .hero-foot {
+  background-color: #eeb943;
+  height: 140px;
+  margin-top: -140px;
+}
+
+body#producto .hero h1 {
+  padding-top: 40px;
+}
+
 h2 {
   font-family: var(--black-color);
   font-style: normal;
@@ -84,7 +94,8 @@ h3 {
 
 /* header */
 header,
-.happy-clients {
+.happy-clients,
+.blog-post {
   background: var(--cream-color);
 }
 
@@ -97,6 +108,10 @@ nav .navbar-brand img {
 nav .nav-link {
   font-size: 15px;
   color: var(--black-color);
+}
+
+nav .nav-link.active {
+  font-weight: bold;
 }
 
 nav .ms-auto {
@@ -332,11 +347,17 @@ nav .ms-auto li:nth-child(3) a {
   left: 810px;
 }
 
+/* blog-post */
+
 /* pre footer */
 
 .pre-footer {
   padding-top: 80px;
   background: var(--violet-color);
+}
+
+#producto .pre-footer {
+  background: #f46532;
 }
 
 .pre-footer h2 {
@@ -348,6 +369,11 @@ nav .ms-auto li:nth-child(3) a {
   background-color: var(--cream-color);
   padding-bottom: 20px;
   margin-top: 30px;
+}
+
+#producto .pre-footer .btn-primary {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 .pre-footer span {
