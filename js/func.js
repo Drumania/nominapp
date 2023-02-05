@@ -8,3 +8,18 @@ var swiper = new Swiper(".swiper-logos", {
     clickable: true,
   },
 });
+
+$(document).ready(function () {
+  // mensual anual
+  $(".time-toggle li").on("click", function () {
+    $(".time-toggle li").removeClass("active");
+    $(this).addClass("active");
+    let mensualOrAnual = $(this).html();
+    console.log(mensualOrAnual);
+  });
+
+  // ver planes completo
+  $(".ver-todo").on("click", function () {
+    $(".tf-extensible").slideToggle();
+  });
+});
