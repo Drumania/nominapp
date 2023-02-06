@@ -5,6 +5,11 @@ var swiper = new Swiper(".swiper-logos", {
   spaceBetween: 30,
   centeredSlides: true,
   loop: true,
+  speed: 2000,
+  autoplay: {
+    delay: 300,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
