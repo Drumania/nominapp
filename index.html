@@ -16,6 +16,7 @@
 
   <link href="./css/style.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+
 </head>
 
 <body id="home">
@@ -145,7 +146,7 @@
           <div class="col-12">
             <h2>Liquida tu nómina en menos de 5 minutos</h2>
           </div>
-          <div class="col-12 col-lg-6 box-content mt-5">
+          <div class="col-12 col-lg-6 box-content mt-0 mb-4 mt-lg-5 mb-lg-0">
             Independientemente del tamaño de tu compañía, liquida tu nómina y
             emite tu nómina electrónica de la forma más simple del mundo y
             olvidate de los archivos pre-historicos de Excel.
@@ -167,7 +168,7 @@
               Automatizada
             </h2>
           </div>
-          <div class="col-12 col-lg-6 box-content">
+          <div class="col-12 col-lg-6 box-content mt-0 mb-4 mt-lg-5 mb-lg-0">
             <ul class="nav nav-pills mb-3 pills-green" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="pills-afiliaciiones-tab" data-bs-toggle="pill"
@@ -213,7 +214,7 @@
               para que te enfoques en tus personas
             </h2>
           </div>
-          <div class="col-12 col-lg-6 box-content">
+          <div class="col-12 col-lg-6 box-content mt-0 mb-4 mt-lg-5 mb-lg-0">
             <ul class="nav nav-pills mb-3 pills-blue" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="pills-contrata-tab" data-bs-toggle="pill"
@@ -277,13 +278,13 @@
   <section class="relax">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-7">&nbsp;</div>
-        <div class="col-5">&nbsp;</div>
+        <div class="col-lg-7">&nbsp;</div>
+        <div class="col-lg-5">&nbsp;</div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-7 px-5">
+        <div class="col-12 col-lg-7 px-5">
           <h3>¡Relax, estás en las mejores manos!</h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 
@@ -292,7 +293,7 @@
             <div class="mt-4">Tecnología certificada por la<br /><img src="./img/LOGOdiam.svg" alt="dian" /></div>
           </div>
         </div>
-        <div class="col-5 text-center px-5">
+        <div class="col-12 col-lg-5 text-center px-5">
           <h2>$203.000MM</h2>
           <span>Dinero procesado mensualmente en nóminas</span>
 
@@ -335,39 +336,38 @@
 
   <footer>
     <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <img class="logo-blanco" src="./img/LogoBlanco.svg" alt="aleluya" />
+      <div class="row text-center text-lg-start">
+        <div class="col-12 col-lg-3">
+          <img class="logo-blanco" src="../img/LogoBlanco.svg" alt="aleluya" />
           <br />
           Hecho con ❤️ y 🍳 en Colombia
         </div>
-        <div class="col-2">
+        <div class="col-12 col-lg-2 mt-5 mt-lg-0">
           <h3>Producto</h3>
-          <a href="#">Precios</a>
-          <a href="#">Características</a>
-          <a href="#">Partner</a>
-          <a href="#">Blog</a>
-          <a href="#">Testimonios</a>
+          <a href="/Precios">Precios</a>
+          <a href="/Nomina">Nómina</a>
+          <a href="/SeguridadSocial/">Seguridad Social</a>
+          <a href="/RecursosHumanos">Recursos Humanos</a>
         </div>
-        <div class="col-2">
+        <div class="col-12 col-lg-2 mt-5 mt-lg-0">
           <h3>¿Dudas?</h3>
           <a href="#">Centro de Ayuda</a>
           <a href="#">Preguntas Frecuentes</a>
           <a href="#">Términos y condiciones</a>
         </div>
-        <div class="col-2">
+        <div class="col-12 col-lg-2 mt-5 mt-lg-0">
           <h3>Oportunidades</h3>
-          <a href="#">Laborales</a>
+          <a href="#">La Tribu</a>
           <a href="#">Aliados</a>
         </div>
-        <div class="col-3">
+        <div class="col-12 col-lg-3 mt-5 mt-lg-0">
           <h3>Contáctanos</h3>
           <a class="mailto" href="mailto:hola@nominapp.com">hola@nominapp.com</a>
           <div class="wrap-rrss">
-            <a href="#"><img src="./img/fb.svg" alt="facebook" /></a>
-            <a href="#"><img src="./img/in.svg" alt="linkedin" /></a>
-            <a href="#"><img src="./img/ins.svg" alt="Instagram" /></a>
-            <a href="#"><img src="./img/ut.svg" alt="YouTube" /></a>
+            <a href="#"><img src="../img/fb.svg" alt="facebook" /></a>
+            <a href="#"><img src="../img/in.svg" alt="linkedin" /></a>
+            <a href="#"><img src="../img/ins.svg" alt="Instagram" /></a>
+            <a href="#"><img src="../img/ut.svg" alt="YouTube" /></a>
           </div>
         </div>
       </div>
@@ -378,11 +378,13 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
 
+
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="./js/func.js"></script>
+
 </body>
 
 <!-- 
