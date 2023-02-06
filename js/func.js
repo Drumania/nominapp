@@ -1,5 +1,3 @@
-new WOW().init();
-
 var swiper = new Swiper(".swiper-logos", {
   slidesPerView: 4,
   spaceBetween: 30,
