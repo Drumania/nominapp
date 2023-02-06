@@ -14,8 +14,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Sora:wght@400;700&display=swap"
     rel="stylesheet" />
 
-  <link href="./css/style.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/animate.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 
 </head>
 
@@ -70,12 +72,13 @@
           </h1>
           Todo lo que necesitas en un solo lugar.
           <br />
-          <button type="button" class="btn btn-primary">Crear mi cuenta gratis</button>
+          <button type="button" class="btn btn-primary ">Crear mi cuenta gratis</button>
           <br />
           <span>(Sin obligaciones, sin tarjeta de crédito)</span>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 position-relative">
           <img class="img-fluid" src="./img/herohome.png" alt="hero home" />
+          <img class="misc1" src="./img/resorte.svg" data-wow-duration="2s" data-wow-delay="5s" alt="resort" />
         </div>
       </div>
     </div>
@@ -141,10 +144,11 @@
 
   <section>
     <div class="container">
-      <div class="box b-yellow">
+      <div class="wow slideInLeft box b-yellow" data-wow-duration="12s" data-wow-delay="15s">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 position-relative">
             <h2>Liquida tu nómina en menos de 5 minutos</h2>
+            <img class="misc2" src="../img/staryellow.svg" alt="staryellow" />
           </div>
           <div class="col-12 col-lg-6 box-content mt-0 mb-4 mt-lg-5 mb-lg-0">
             Independientemente del tamaño de tu compañía, liquida tu nómina y
@@ -162,11 +166,12 @@
 
       <div class="box b-green">
         <div class="row">
-          <div class="col-12">
-            <h2>
+          <div class="col-12 position-relative">
+            <h2 class="px-0 px-lg-5">
               La única plataforma en Colombia con Seguridad Social 100%
               Automatizada
             </h2>
+            <img class="misc3" src="../img/stergreen.svg" alt="stergreen" />
           </div>
           <div class="col-12 col-lg-6 box-content mt-0 mb-4 mt-lg-5 mb-lg-0">
             <ul class="nav nav-pills mb-3 pills-green" id="pills-tab" role="tablist">
@@ -207,9 +212,9 @@
       </div>
 
       <div class="box b-blue">
-        <div class="row">
-          <div class="col-12">
-            <h2>
+        <div class="row position-relative">
+          <div class="col-12 ">
+            <h2 class="px-0 px-lg-5">
               Nos comemos los chicharrones de RRHH que te quitan mucho tiempo,
               para que te enfoques en tus personas
             </h2>
@@ -270,12 +275,13 @@
           <div class="col-12 col-lg-6">
             <img class="img-fluid px-5 pb-5" src="./img/Pantallazo4.png" alt="Reportar horas extras" />
           </div>
+          <img class="misc4" src="../img/starviolet.svg" alt="starviolet" />
         </div>
       </div>
     </div>
   </section>
 
-  <section class="relax">
+  <section class="relax position-relative">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-7">&nbsp;</div>
@@ -283,8 +289,9 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row position-relative">
         <div class="col-12 col-lg-7 px-5">
+          <img class="misc5" src="../img/firmayellow.svg" alt="firmayellow" />
           <h3>¡Relax, estás en las mejores manos!</h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
 
@@ -302,6 +309,7 @@
         </div>
       </div>
     </div>
+    <img class="misc6" src="../img/mediocirculo.svg" alt="mediocirculo" />
   </section>
 
   <section class="happy-clients">
@@ -383,6 +391,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="./js/wow.js"></script>
   <script src="./js/func.js"></script>
 
 </body>

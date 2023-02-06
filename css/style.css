@@ -649,15 +649,16 @@ body#precios nav .ms-auto li:nth-child(3) a {
 
 .pre-footer {
   padding: 80px 15px;
-  background: var(--violet-color);
+  background: var(--violet-color) url(../img/resorte.svg) no-repeat 110% 90%;
 }
 
 #producto .pre-footer {
-  background: var(--orange-hard-color);
+  background: var(--orange-hard-color) url(../img/resorte.svg) no-repeat 110%
+    90%;
 }
 
 #rrhh .pre-footer {
-  background: var(--blue-hard-color);
+  background: var(--blue-hard-color) url(../img/resorte.svg) no-repeat 110% 90%;
   color: var(--white-color);
 }
 
@@ -771,6 +772,62 @@ footer .wrap-rrss {
   font-weight: bold;
 }
 
+.misc1 {
+  position: absolute;
+  right: -70px;
+  bottom: -30px;
+}
+
+.misc2 {
+  width: 80px;
+  position: absolute;
+  right: -30px;
+  bottom: 0px;
+}
+
+.misc3 {
+  width: 50px;
+  position: absolute;
+  left: -20px;
+  top: 150px;
+}
+
+.misc4 {
+  width: 170px;
+  position: absolute;
+  right: -60px;
+  bottom: -60px;
+  z-index: -100;
+}
+
+.misc5 {
+  width: 170px;
+  position: absolute;
+  left: -120px;
+  top: -40px;
+}
+
+.misc6 {
+  width: 170px;
+  position: absolute;
+  right: 0;
+  bottom: -140px;
+}
+
+.misc7 {
+  width: 280px;
+  position: absolute;
+  right: -150px;
+  bottom: -20px;
+}
+
+.misc8 {
+  width: 250px;
+  position: absolute;
+  right: -150px;
+  bottom: -20px;
+}
+
 @media screen and (orientation: portrait) {
   :root {
     --font-size: 12px;
@@ -785,6 +842,17 @@ footer .wrap-rrss {
   h2 {
     line-height: 29px;
     padding: 30px 30px;
+  }
+
+  .misc1,
+  .misc2,
+  .misc3,
+  .misc4,
+  .misc5,
+  .misc6,
+  .misc7,
+  .misc8 {
+    display: none;
   }
 
   body#precios .hero-foot {
