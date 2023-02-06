@@ -212,7 +212,7 @@ nav .ms-auto {
   font-weight: bold;
 }
 
-nav .ms-auto li:nth-child(2) a {
+nav .ms-auto li:nth-child(1) a {
   border: 2px solid var(--black-color);
   background-color: transparent;
   line-height: 26px;
@@ -222,11 +222,11 @@ nav .ms-auto li:nth-child(2) a {
   padding: 3px 15px;
 }
 
-body#precios nav .ms-auto li:nth-child(2) a {
+body#precios nav .ms-auto li:nth-child(1) a {
   border: 2px solid var(--white-color);
 }
 
-nav .ms-auto li:nth-child(3) a {
+nav .ms-auto li:nth-child(2) a {
   border: 2px solid var(--black-color);
   background-color: var(--first-color);
   line-height: 26px;
@@ -236,9 +236,16 @@ nav .ms-auto li:nth-child(3) a {
   padding: 3px 15px;
 }
 
-body#precios nav .ms-auto li:nth-child(3) a {
+body#precios nav .ms-auto li:nth-child(2) a {
   border: 2px solid var(--black-color);
   background-color: var(--black-color);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: transparent;
+  font-weight: bold;
+  color: var(--black-color);
 }
 
 /* sections */
@@ -658,9 +665,17 @@ body#precios nav .ms-auto li:nth-child(3) a {
     90%;
 }
 
+#producto .pre-footer .btn-primary:hover {
+  background-color: var(--first-color);
+}
+
 #rrhh .pre-footer {
   background: var(--blue-hard-color) url(../img/resorte.svg) no-repeat 110% 90%;
   color: var(--white-color);
+}
+
+#rrhh .pre-footer .btn-primary:hover {
+  background-color: var(--orange-hard-color);
 }
 
 .pre-footer h2 {
@@ -838,11 +853,12 @@ footer .wrap-rrss {
     word-break: break-word;
     font-size: 30px;
     line-height: 40px;
+    padding-top: 50px;
   }
 
   h2 {
     line-height: 29px;
-    padding: 30px 30px;
+    padding: 30px 30px 10px;
   }
 
   .misc1,
@@ -860,9 +876,15 @@ footer .wrap-rrss {
     margin-top: unset;
   }
 
+  .box {
+    border-radius: 40px;
+    margin: 20px 0 40px;
+  }
+
   .box .box-content {
     font-size: 12px;
     line-height: 16px;
+    padding: 0px 10% 20px;
   }
 
   .box .box-content .nav-pills .nav-link {
@@ -940,6 +962,10 @@ footer .wrap-rrss {
   .prices-tables .table-four {
     padding: 25px;
     margin-bottom: 30px;
+  }
+
+  .pre-footer {
+    background-size: 50%;
   }
 }
 
