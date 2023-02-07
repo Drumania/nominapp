@@ -213,7 +213,7 @@ nav .ms-auto {
 }
 
 nav .ms-auto li:nth-child(1) a {
-  border: 2px solid var(--black-color);
+  border: 1px solid var(--black-color);
   background-color: transparent;
   line-height: 26px;
   font-size: 14px;
@@ -223,11 +223,11 @@ nav .ms-auto li:nth-child(1) a {
 }
 
 body#precios nav .ms-auto li:nth-child(1) a {
-  border: 2px solid var(--white-color);
+  border: 1px solid var(--white-color);
 }
 
 nav .ms-auto li:nth-child(2) a {
-  border: 2px solid var(--black-color);
+  border: 1px solid var(--first-color);
   background-color: var(--first-color);
   line-height: 26px;
   font-size: 14px;
@@ -686,7 +686,8 @@ body#precios nav .ms-auto li:nth-child(2) a {
 .pre-footer .btn-primary {
   background-color: var(--cream-color);
   padding-bottom: 20px;
-  margin-top: 30px;
+  width: 240px;
+  margin: 30px auto;
 }
 
 #producto .pre-footer .btn-primary {
@@ -719,7 +720,7 @@ body#precios nav .ms-auto li:nth-child(2) a {
   display: block;
 }
 
-.pre-footer a {
+.pre-footer a.asesor {
   color: var(--white-color);
   font-size: 15px;
   text-decoration: underline;
@@ -727,13 +728,16 @@ body#precios nav .ms-auto li:nth-child(2) a {
   display: block;
 }
 
-.pre-footer a::after {
+.pre-footer a.asesor::after {
   content: "\2192";
   text-decoration: none;
   position: absolute;
   margin-left: 6px;
 }
 
+.stronger {
+  font-size: 16px;
+}
 /* footer */
 
 footer {
@@ -833,7 +837,7 @@ footer .wrap-rrss {
 .misc7 {
   width: 280px;
   position: absolute;
-  right: -150px;
+  right: -40px;
   bottom: -20px;
 }
 
@@ -874,6 +878,11 @@ footer .wrap-rrss {
 
   body#precios .hero-foot {
     margin-top: unset;
+  }
+
+  #producto .pre-footer {
+    background: var(--orange-hard-color) url(../img/resorte.svg) no-repeat 110%
+      90% / 60%;
   }
 
   .box {
@@ -965,7 +974,7 @@ footer .wrap-rrss {
   }
 
   .pre-footer {
-    background-size: 50%;
+    background-size: 40%;
   }
 }
 

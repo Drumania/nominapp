@@ -30,7 +30,7 @@ $(document).ready(function () {
       $(".tb-2 .tf-footer label").html("$6.900 / Persona");
 
       $(".tb-3 .tf-footer span").html("$59.900 / Mes");
-      $(".tb-3 .tf-footer label").html("$11.900 / Mes / Persona");
+      $(".tb-3 .tf-footer label").html("$11.900 / Persona");
 
       $(".tb-4 .tf-footer span").html("$399.900 / Mes");
       $(".tb-4 .tf-footer label").html("$19.900 / Persona");
