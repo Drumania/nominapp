@@ -848,6 +848,41 @@ footer .wrap-rrss {
   bottom: -20px;
 }
 
+.misc9 {
+  width: 250px;
+  position: absolute;
+  left: -100px;
+  top: 10%;
+}
+
+.misc10 {
+  width: 140px;
+  position: absolute;
+  right: 0;
+  top: 280px;
+}
+
+.misc11 {
+  width: 120px;
+  position: absolute;
+  left: 0;
+  top: 230px;
+}
+
+.misc12 {
+  width: 140px;
+  position: absolute;
+  right: 190px;
+  top: 210px;
+}
+
+.misc13 {
+  width: 70px;
+  position: absolute;
+  left: -120px;
+  top: 190px;
+}
+
 .circle-yellow {
   background: transparent url(../img/circleyellow.svg) no-repeat left center /
     12%;
@@ -886,7 +921,12 @@ footer .wrap-rrss {
   .misc5,
   .misc6,
   .misc7,
-  .misc8 {
+  .misc8,
+  .misc9,
+  .misc10,
+  .misc11,
+  .misc12,
+  .misc13 {
     display: none;
   }
 
