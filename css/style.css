@@ -848,6 +848,20 @@ footer .wrap-rrss {
   bottom: -20px;
 }
 
+.circle-yellow {
+  background: transparent url(../img/circleyellow.svg) no-repeat left center /
+    12%;
+}
+
+.circle-green {
+  background: transparent url(../img/circlegreen.svg) no-repeat 0px 10px/ 10%;
+  line-height: 30px;
+}
+
+.circle-blue {
+  background: transparent url(../img/circleblue.svg) no-repeat 0px 40px/ 10%;
+  line-height: 30px;
+}
 @media screen and (orientation: portrait) {
   :root {
     --font-size: 12px;
@@ -941,6 +955,11 @@ footer .wrap-rrss {
 
   footer .wrap-rrss {
     justify-content: center;
+  }
+
+  .time-toggle li:nth-child(2)::after {
+    right: -20px;
+    top: 40px;
   }
 
   .client-img {
