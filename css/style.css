@@ -3,7 +3,7 @@
 :root {
   --gap-number: 10px;
   --first-color: #02c76e;
-  --cream-color: #f8f2e1;
+  --cream-color: #f3ecd9;
   --yellow-light-color: #ffe59d;
   --blue-color: #27b7ff;
   --blue-hard-color: #503df9;
@@ -67,7 +67,7 @@ body#home .hero-foot,
 body#seguridad .hero-foot {
   background-color: var(--first-color);
   height: 140px;
-  margin-top: -140px;
+  margin-top: -100px;
 }
 
 body#producto .hero-foot {
@@ -121,6 +121,10 @@ body#precios .hero-foot {
 
 .hero span {
   font-size: 12px;
+}
+
+.video-hero {
+  min-height: 500px;
 }
 
 .time-toggle {
