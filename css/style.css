@@ -124,6 +124,7 @@ body#precios .hero-foot {
 }
 
 .video-hero {
+  height: 500px;
   min-height: 500px;
 }
 
